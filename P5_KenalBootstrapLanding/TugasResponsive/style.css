@@ -1,0 +1,26 @@
+.box {
+    background-color: crimson;
+    height: 120px;
+    width: 120px;
+    /* background warna, tinggi & lebar */
+    margin: 50px;
+    /* untuk jarak antara kotak dengan lainnya */
+    float: left;
+    /* angka dimulai dari kiri */
+    padding-top: 50px;
+    box-shadow: 5px 5px 5px darkgray;
+    /* box-shadow: kanan, bawah, blur, warna shadow */
+    /* untuk kotak jadi berbayang */
+    text-align: center;
+    padding-top: 50px;
+    /* teks ke tengah, pixel letak angka */
+    border-radius: 25px;
+    /* menjadi tumpul pinggir kotaknya */
+    background-image: url('../Jumat13032020/image/image-1.jpg');
+    /* memasukkan image menjadi background */
+}
+
+/* .d-block {
+    height: 430px;
+    width: 530px;
+} */

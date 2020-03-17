@@ -1,0 +1,174 @@
+/* background header */
+.css-157yo9l {
+    width: 100%;
+    min-width: 1024px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07);
+    position: fixed;
+    right: 0;
+    background-color: white;
+    height: 88px;
+}
+
+/* background header awal */
+.css-xsb7ev {
+    margin-top: -8px;
+    width: 100%;
+    display: flex;
+    height: 32px;
+    background-color: lightgray;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 0 32px;
+    position: fixed;
+    justify-content: space-between;
+    left: 0px;
+}
+
+/* Download Tokopedia App */
+.css-1n2mv2k {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ngilangin garis href */
+a {
+    text-decoration: none;
+}
+
+.css-1419au9 {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://ecs7.tokopedia.net/assets-tokopedia-lite/v2/zeus/production/2d055caf.svg);
+    background-size: 100% auto;
+    background-position: 60% 60%;
+}
+
+.css-1qjt93b {
+    color: #495359;
+    font-size: 15px;
+}
+
+/* Menu Header Awal */
+.css-1dm32rh {
+    display: flex;
+    margin: 2px;
+    justify-content: space-around;
+    width: 730px;
+}
+
+/* Menu Teks Header Awal */
+.css-5igm7s {
+    padding-right: 50px;
+    color: #495359;
+    font-size: 15px;
+    line-height: 31px;
+}
+
+/* Ukuran Header shadow */
+.css-dhjoyy {
+    width: 96%;
+    display: flex;
+    height: 56px;
+    top: 30px;
+    position: fixed;
+    align-items: center;
+}
+
+/* Logo Teks Tokopedia */
+.css-1mag7cs {
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 0 0 4px;
+}
+
+.css-1mag7cs img {
+    margin-left: 50px;
+    height: auto;
+}
+
+/* Posisi Teks Kategori */
+.css-1qr7rcv {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 1px 8px 0 10px;
+}
+
+.css-vk082c {
+    margin-left: 50px;
+    color: #495359;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+}
+
+/* Search Engine */
+.css-vmszlt {
+    display: flex;
+    width: 70%;
+    height: 56px;
+}
+
+.css-w3ze74 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.css-1kxpl7k {
+    width: 100%;
+    margin: 4px 0 0 0;
+}
+
+.css-1kxpl7k div {
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.css-1kxpl7k div input {
+    border: 0px;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.css-1kxpl7k div button {
+    height: 100%;
+    flex: 0 0 32px;
+    width: 32px;
+}
+
+.css-m22gl8 {
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #E5E7E9;
+}
+
+/* button search engine */
+.css-9gksxa {
+    margin-left: -15px;
+    border: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    width: 40px;
+    background-color: lightgray;
+    flex: 0 0 40px;
+}
+
+.css-1w2ezbs {
+    width: 100%;
+    color: rgba(49, 53, 59, 0.96);
+    font-family: inherit;
+    background-color: transparent;
+    height: 38px;
+    font-size: 15px;
+}
