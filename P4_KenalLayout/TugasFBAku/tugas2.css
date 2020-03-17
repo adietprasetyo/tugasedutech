@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-right: 800px;
+    padding-left: 8px;
+    display: block;
+    width: 100%;
+}

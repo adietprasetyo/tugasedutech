@@ -1,0 +1,85 @@
+.header {
+    background-color: royalblue;
+    color: cornsilk;
+    margin: 25px;
+    padding: 25px;
+}
+
+.fb {
+    font-family: 'Fredoka One', cursive;
+}
+
+.right {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+
+#u_0_b {
+    background-color: cornflowerblue;
+    color: mintcream;
+}
+
+#lupa {
+    color: thistle;
+}
+
+.left {
+    width: 65%;
+    margin-top: 10px;
+    position: absolute;
+    top: 100px;
+    height: 10px;
+    margin: 25px;
+    padding: 20px;
+}
+
+.right-signup {
+    margin-left: 850px;
+    position: absolute;
+    top: 130px;
+}
+
+.form-row {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row input {
+    width: 49%;
+    height: 30px;
+    font-weight: 700;
+}
+
+.right-signup * {
+    margin-top: 0.5%;
+}
+
+.right-signup p {
+    color: #90949c;
+    font-weight: 700;
+}
+
+.right-signup .ketentuan {
+    width: 80%;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.right-signup button {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.left img {
+    margin-top: 10%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');

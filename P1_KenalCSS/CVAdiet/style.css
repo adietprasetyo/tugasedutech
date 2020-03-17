@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+	font-family: 'Oxanium', cursive;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    width: 200px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+hr {
+    margin: 30px 100px 5px 100px;
+}
+
+.instagram{
+    margin: 10px 25px 5px 25px;
+}
+
+.facebook{
+    margin: 10px 25px 5px 25px;
+}
+
+.twitter{
+    margin: 10px 25px 5px 25px;
+}

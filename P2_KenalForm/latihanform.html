@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar HTML Part 2</title>
+</head>
+<body>
+	<h2>Form Pendaftaran</h2>
+
+	<form action="/action_page.php">
+		<fieldset>
+			<table cellpadding="5" cellspacing="20" border="0">
+				<tr>
+					<td>Test</td>
+					<td>Test</td>
+					<td>Test</td>
+				</tr>
+			</table>
+			<legend><h3>Biodata</h3></legend>
+				<label for="fname">Nama Depan: </label>
+				<input type="text" id="fname" name="fname" placeholder="First name"><br>
+				<div><br>
+					<label for="lname">Nama Belakang: </label>
+					<input type="text" id="lname" name="lname" placeholder="Last name">
+			</div>
+				<label for="templahir">Tempat Lahir: </label><br>
+				<input type="text" id="templahir" name="templahir" placeholder="Kota/Kabupaten">
+				<p>
+				<!-- Type: Datepicker -->
+					<label>Tanggal Lahir:</label>
+					<input type="date" name="tanggal" />
+				</p>
+				<p>
+					<label>Umur:</label>
+					<input type="number" min="10" max="90" name="umur" />
+				</p>
+				<!-- Type: RadioButton -->
+				<label for="kelamin">Jenis Kelamin: </label><br>
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label><br>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label><br><br>
+				<!-- Type: CheckBox -->
+				<label for="pendidikan">Pendidikan Terakhir: </label><br>
+				<input type="CheckBox" id="sd" name="pendidikan" value="sd">
+				<label for="sd">SD/MI</label><br>
+				<input type="CheckBox" id="smp" name="pendidikan" value="smp">
+				<label for="smp">SMP/MTS</label><br>
+				<input type="CheckBox" id="sma" name="pendidikan" value="sma">
+				<label for="sma">MA/SMA/K</label><br>
+				<input type="CheckBox" id="d1" name="pendidikan" value="d1">
+				<label for="d1">D1/D2</label><br>
+				<input type="CheckBox" id="s1" name="pendidikan" value="s1">
+				<label for="s1">D4/S1</label><br>
+				<input type="CheckBox" id="s2" name="pendidikan" value="s2">
+				<label for="s2">S2</label><br>
+				<input type="CheckBox" id="s3" name="pendidikan" value="s3">
+				<label for="s3">S3</label><br><br>
+
+				<label for="notlp">No. Telepon:</label><br>
+				<input type="text" style="width: 300px" id="notlp" name="notlp" placeholder="Nomor Telepon">
+				<p>
+					<label>Email:</label>
+					<input type="email" name="email" placeholder="Your email ..." />
+				</p>
+				<label for="agama">Agama: </label>
+				<select id="agama" name="agama">
+					<option value="pilih">--Pilih--</option>
+					<option value="islam">Islam</option>
+					<option value="protestan">Protestan</option>
+					<option value="katholik">Katholik</option>
+					<option value="hindu">Hindu</option>
+					<option value="budha">Budha</option>
+				</select><br>
+				<p>
+					<label>Alamat Website Facebook:</label>
+					<input type="url" style="width: 250px" name="name" placeholder="Masukan URL Web ..." />
+				</p>
+				<label for="alamat">Alamat: </label><br>
+				<textarea name="message" rows="10" cols="30" placeholder="Alamat lengkap"></textarea><br>
+				<br>
+			</table>
+		</fieldset>
+	</form><br>
+	<center>
+		<input type="reset" value="Batal" onclick="confirm('Yakin dibatalin? Mengko nyong busak loh. Ngarti ora son?')"></input>
+		<input type="submit" value="Simpan" onclick="alert('Selamat! Data anda tersimpan. Privasimu hanya kita berdua yang tau yach..')"></input>
+	</center>
+	<div id="footer">
+		<center><p>Copyright @ Adiet_Narto 2020</p></center>
+	</div>
+</body>
+</html>
