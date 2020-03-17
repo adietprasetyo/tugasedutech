@@ -1,8 +1,105 @@
+.float {
+    float: none;
+}
+
 .kuning {
     background-color: rgb(255, 214, 0);
+    padding-bottom: 15px;
 }
 
 #TKuningUp {
-    width: 300px;
-    max-width: 100%;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    margin-left: 110px;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
 }
+
+#TKuningUp1 {
+    margin-left: 180px;
+    color: rgb(52, 152, 219);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+#TKuningUp2 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Francois One', sans-serif;
+}
+
+#garis {
+    width: 10%;
+    border-color: rgb(0, 117, 178);
+}
+
+#TKuningUp3 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+#fhilipina {
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#China {
+    width: 55px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#Thailand {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#Singapura {
+    width: 55px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#Indonesia {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#Hongkong {
+    width: 55px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.videoatas {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.submit_member {
+    margin-top: 50px;
+    width: 60%;
+    padding-left: 65px !important;
+    padding-right: 60px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent !important;
+    border: 3px solid rgb(0, 117, 178) !important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
