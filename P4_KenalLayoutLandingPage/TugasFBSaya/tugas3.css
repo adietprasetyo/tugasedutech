@@ -1,8 +1,8 @@
 .header {
     background-color: royalblue;
     color: cornsilk;
-    margin: 25px;
-    padding: 25px;
+    margin: 0px;
+    padding: 40px;
 }
 
 .fb {
@@ -19,6 +19,7 @@
 #u_0_b {
     background-color: cornflowerblue;
     color: mintcream;
+    border: 10px;
 }
 
 #lupa {
@@ -60,6 +61,10 @@
 .right-signup p {
     color: #90949c;
     font-weight: 700;
+}
+
+._8esa {
+    cursor: pointer;
 }
 
 .right-signup .ketentuan {
